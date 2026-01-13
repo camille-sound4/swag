@@ -1,11 +1,14 @@
-module github.com/swaggo/swag
+module github.com/camille-sound4/swag
 
 go 1.24.0
+
+replace github.com/swaggo/swag => github.com/camille-sound4/swag v1.17.0
 
 require (
 	github.com/KyleBanks/depth v1.2.1
 	github.com/go-openapi/spec v0.22.1
 	github.com/stretchr/testify v1.11.1
+	github.com/swaggo/swag v0.0.0-00010101000000-000000000000
 	github.com/urfave/cli/v2 v2.3.0
 	golang.org/x/sync v0.12.0
 	golang.org/x/text v0.23.0
